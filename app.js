@@ -15,7 +15,7 @@ var asr = JSON.parse(body).data.timings.Asr;
 var maghrib = JSON.parse(body).data.timings.Maghrib;
 var isha = JSON.parse(body).data.timings.Isha;
 
-
+//can i put all these times in an array instead of separate var's?
 console.log(`Imsak: ${imsak}`)
 console.log(`Fajr: ${fajr}`);
 console.log(`Sunrise: ${sunrise}`);
